@@ -1,0 +1,208 @@
+body {
+  color: white;
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 72px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  height: 100%;
+}
+
+.js-info,
+.js-sky {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.js-weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.weatherIcon {
+  height: 70px;
+  width: 70px;
+}
+
+img {
+  object-fit: cover;
+  width: 55px;
+  height: 55px;
+}
+
+.weather__text {
+  font-size: 12px;
+}
+
+.js-microDust {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aqiBedge {
+  height: 35px;
+  width: 35px;
+  border-radius: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-top: 7.5px;
+}
+
+.microDust__text {
+  font-size: 12px;
+}
+
+.good {
+  background-color: #009a66;
+}
+
+.moderate {
+  background-color: #ffde32;
+}
+
+.unhealthy {
+  background-color: #ff9933;
+}
+
+.vertUnhealthy {
+  background-color: #cc0333;
+}
+
+.js-form {
+  display: flex;
+  justify-content: end;
+}
+
+.js-form input {
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(226, 224, 224, 0.8);
+  font-size: 20px;
+  color: white;
+  outline: none;
+  width: 180px;
+  height: 30px;
+}
+
+.js-form input::placeholder {
+  color: rgb(226, 224, 224, 0.8);
+  font-size: 15px;
+  font-style: italic;
+  text-align: end;
+}
+
+.js-greetings {
+  font-size: 25px;
+}
+
+.js-toDoForm input {
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(226, 224, 224, 0.8);
+  font-size: 15px;
+  color: white;
+  outline: none;
+  width: 180px;
+  height: 30px;
+}
+
+.js-toDoForm input::placeholder {
+  color: rgb(226, 224, 224, 0.8);
+  font-size: 15px;
+  font-style: italic;
+  text-align: end;
+}
+
+button {
+  cursor: pointer;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.bg-Img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 28px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.js-toDoList li:nth-child(7n + 1) button {
+  color: #fdaed8;
+}
+
+.js-toDoList li:nth-child(7n + 2) button {
+  color: #fbd0c5;
+}
+
+.js-toDoList li:nth-child(7n + 3) button {
+  color: #f9ef8b;
+}
+
+.js-toDoList li:nth-child(7n + 4) button {
+  color: #dbf3e6;
+}
+
+.js-toDoList li:nth-child(7n + 5) button {
+  color: #bbe3f9;
+}
+
+.js-toDoList li:nth-child(7n + 6) button {
+  color: #aac9fe;
+}
+
+.js-toDoList li:nth-child(7n + 7) button {
+  color: #c8b2ea;
+}
+
+.js-wiseSaying {
+  position: fixed;
+  top: 400px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 430px;
+}
+
+.wiseSaying__text {
+  margin-bottom: 20px;
+}
